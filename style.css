@@ -4,9 +4,8 @@ body {
   width: auto;
 }
 
-
 .hero {
-    position: relative;
+  position: relative;
 }
 .hero-image {
   width: 100%;
@@ -14,15 +13,15 @@ body {
 }
 
 .hero-text {
-    position: absolute;
-    top: 100px;
-    left: 75px;
-    color: whitesmoke;
+  position: absolute;
+  top: 100px;
+  left: 75px;
+  color: whitesmoke;
 }
 
 .hero-text2 {
-    color: whitesmoke;
-    position: absolute;
-    top: 200px;
-    left: 75px;
+  color: whitesmoke;
+  position: absolute;
+  top: 200px;
+  left: 75px;
 }

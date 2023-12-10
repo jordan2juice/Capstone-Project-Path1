@@ -1,3 +1,3 @@
-copyright = document.querySelector("#copyright")
 // Copyright Year Auto-Update
-copyright.appendChild(document.createTextNode(new Date().getFullYear()))
+copyright = document.querySelector("#copyright");
+copyright.appendChild(document.createTextNode(new Date().getFullYear()));

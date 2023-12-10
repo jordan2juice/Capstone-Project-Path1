@@ -17,19 +17,26 @@ body {
   top: 100px;
   left: 75px;
   color: whitesmoke;
-  font-size: 75px;
+  font-size: 7vw;
 }
 
 .hero-text2 {
   color: whitesmoke;
   position: absolute;
-  top: 275px;
+  top: 250px;
   left: 75px;
-  font-size: 35px;
+  font-size: 3vw;
 }
 
 #hero-button {
   position: absolute;
   top: 350px;
   left: 75px;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #111111;
 }

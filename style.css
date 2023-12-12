@@ -30,7 +30,7 @@ body {
 
 #hero-button {
   position: absolute;
-  top: 350px;
+  bottom: 25%;
   left: 75px;
 }
 
@@ -39,4 +39,16 @@ body {
   color: white;
   padding: 20px;
   background-color: #111111;
+}
+
+#animation {
+  opacity: 0;
+  transform: translatex(-300px);
+  transition: all 0.7s ease-out;
+  transition-delay: 0.4s;
+}
+
+#scroll-animation {
+  opacity: 1;
+  transform: translatex(0);
 }

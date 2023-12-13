@@ -23,7 +23,7 @@ body {
 .hero-text2 {
   color: whitesmoke;
   position: absolute;
-  top: 250px;
+  bottom: 200px;
   left: 75px;
   font-size: 3vw;
 }
@@ -41,14 +41,7 @@ body {
   background-color: #111111;
 }
 
-#animation {
-  opacity: 0;
-  transform: translatex(-300px);
-  transition: all 0.7s ease-out;
-  transition-delay: 0.4s;
-}
 
-#scroll-animation {
-  opacity: 1;
-  transform: translatex(0);
+h1 {
+    color: aliceblue;
 }

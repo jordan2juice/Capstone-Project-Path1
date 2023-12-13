@@ -41,7 +41,10 @@ body {
   background-color: #111111;
 }
 
-
- {
-    color: aliceblue; 
+#pro-title {
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid aliceblue;
+    margin-bottom: 20px;
 }

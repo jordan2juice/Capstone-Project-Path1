@@ -58,3 +58,7 @@ body {
 .graphic {
   color: aliceblue;
 }
+
+.profile-photo {
+  width: 500px;
+}

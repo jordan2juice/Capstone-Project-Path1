@@ -2,6 +2,8 @@ body {
   background-color: rgb(26, 26, 26);
   height: auto;
   width: auto;
+  color: aliceblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .hero {

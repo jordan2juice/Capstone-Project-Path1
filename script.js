@@ -8,4 +8,9 @@ function changeQuoteToAqua() {
   console.log("in change quote");
 }
 
-changeQuoteToAqua();
+
+let quoteBtn = document.querySelector ("#quote-button");
+quoteBtn.onclick = changeQuoteToAqua
+
+changeQuoteToAqua()
+

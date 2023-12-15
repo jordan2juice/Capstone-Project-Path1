@@ -3,7 +3,7 @@ body {
   height: auto;
   width: auto;
   color: aliceblue;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .hero {
@@ -44,15 +44,15 @@ body {
 }
 
 #pro-title {
-    color: aliceblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid aliceblue;
-    margin-bottom: 20px;
+  color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid aliceblue;
+  margin-bottom: 20px;
 }
 
 .web {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .graphic {

@@ -60,5 +60,6 @@ body {
 }
 
 .profile-photo {
-  width: 500px;
+  width: 450px;
+  border: solid aliceblue;
 }

@@ -11,14 +11,17 @@ function changeQuoteToAqua() {
 let quoteBtn = document.querySelector("#quote-button");
 quoteBtn.onclick = changeQuoteToAqua;
 
-// function validation() {
-//   let inputs;
-//   inputs = document.querySelectorAll("form input");
-//   for (input of inputs) {
-//     if (input.value === "") {
-//       input.style.color = "lime";
-//     } else {
-//       input.style.color = "#191970";
-//     }
-//   }
-// }
+function validate() {
+  let inputs;
+  inputs = document.querySelectorAll("form input");
+  for (input of inputs) {
+    if (input.value === "") {
+      input.style.border = "solid lime 5px";
+    } else {
+      input.style.border = "solid #191970 5px";
+    }
+  }
+}
+
+btnSubmit = document.querySelector('#my-button');
+button.onclick = validate;

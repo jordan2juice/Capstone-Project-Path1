@@ -8,9 +8,17 @@ function changeQuoteToAqua() {
   console.log("in change quote");
 }
 
+let quoteBtn = document.querySelector("#quote-button");
+quoteBtn.onclick = changeQuoteToAqua;
 
-let quoteBtn = document.querySelector ("#quote-button");
-quoteBtn.onclick = changeQuoteToAqua
-
-changeQuoteToAqua()
-
+// function validation() {
+//   let inputs;
+//   inputs = document.querySelectorAll("form input");
+//   for (input of inputs) {
+//     if (input.value === "") {
+//       input.style.color = "lime";
+//     } else {
+//       input.style.color = "#191970";
+//     }
+//   }
+// }

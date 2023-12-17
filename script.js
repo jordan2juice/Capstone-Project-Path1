@@ -11,6 +11,8 @@ function changeQuoteToAqua() {
 // let quoteBtn = document.querySelector("#quote-button");
 // quoteBtn.onclick = changeQuoteToAqua;
 
+changeQuoteToAqua ()
+
 function validate() {
   let inputs;
   inputs = document.querySelectorAll("form input");

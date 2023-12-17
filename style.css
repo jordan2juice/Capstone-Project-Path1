@@ -62,3 +62,12 @@ body {
   width: 450px;
   border: solid aliceblue;
 }
+
+#github {
+  width: 50px;
+  padding-right: 10px;
+}
+#linkedin {
+  width: 50px;
+  padding-left: 10px;
+}

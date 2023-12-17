@@ -8,20 +8,20 @@ function changeQuoteToAqua() {
   console.log("in change quote");
 }
 
-let quoteBtn = document.querySelector("#quote-button");
-quoteBtn.onclick = changeQuoteToAqua;
+// let quoteBtn = document.querySelector("#quote-button");
+// quoteBtn.onclick = changeQuoteToAqua;
 
 function validate() {
   let inputs;
   inputs = document.querySelectorAll("form input");
   for (input of inputs) {
     if (input.value === "") {
-      input.style.border = "solid lime 5px";
+      input.style.background = "#E0FFFF";
     } else {
-      input.style.border = "solid #191970 5px";
+      input.style.background = "#AFEEEE";
     }
   }
 }
 
-btnSubmit = document.querySelector('#my-button');
-button.onclick = validate;
+btnSubmit = document.querySelector("#my-button");
+btnSubmit.onclick = validate;

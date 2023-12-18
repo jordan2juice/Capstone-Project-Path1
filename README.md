@@ -13,4 +13,4 @@ The decided to use a dark them with a color of aqua of accents.
 ## Wireframe
 I used a wireframe to show the basic layout of my website.
 
-![images desc](.imgs/)
+![images desc](./imgs/Wireframe_Capstone.PNG)
